@@ -12,37 +12,51 @@
 
 <body>
     <header>
-    <nav id="nav">
-        <div><img class="logo" src="imagens/Logo.svg" alt=""></div>
-        <div class="menu-options">
-            <li class="menu-options">Painel</li>
-            <li class="menu-options">Envios</li>
-            <li class="menu-options">Perfil</li>
-            <li class="menu-options">Clientes</li>
-            <li class="menu-options">Calculadoras</li>
-        </div>
-        <div class="right">
-            <div class="icon"><i class="fa-solid fa-wallet" style="color: #7b7b7b;"></i></div>
-            <div class="icon"><i class="fa-solid fa-cart-shopping" style="color: #7b7b7b;"></i></div>
-            <a class="logout" href="Desconectar">Desconectar</a>
-        </div>
-    </nav>
-    <div>
-        <div class="title-section">
-            <div class="container">
-                <div class="title">
-                    <h3>Envio</h3>
-                    <p>Listagem dos envios realizados </p>
+        <nav id="nav">
+            <div><img class="logo" src="imagens/Logo.svg" alt=""></div>
+            <div class="menu-options">
+                <li class="menu-options">Painel</li>
+                <li class="menu-options">Envios</li>
+                <li class="menu-options">Perfil</li>
+                <li class="menu-options">Clientes</li>
+                <li class="menu-options">Calculadoras</li>
+            </div>
+            <div class="right">
+                <div class="icon"><i class="fa-solid fa-wallet" style="color: #7b7b7b;"></i></div>
+                <div class="icon"><i class="fa-solid fa-cart-shopping" style="color: #7b7b7b;"></i></div>
+                <a class="logout" href="Desconectar">Desconectar</a>
+            </div>
+        </nav>
+        <div>
+            <div class="title-section">
+                <div class="container">
+                    <div class="title">
+                        <h3>Envio</h3>
+                        <p>Listagem dos envios realizados </p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </header>
-    <div class="filter">
-        <div class="left">
-            <div class="select">
-                <div class="wrapper">
-                    <label class="label">Periodo</label>
+    <div id="page-wrapper">
+        <div id="container">
+            <div id="page">
+                <div class="filter">
+                    <div class="left">
+                        <div class="select">
+                            <div class="component-wrapper">
+                                <label class="label">Periodo</label>
+                                <div class="input-wrapper">
+                                    <div class="select-wrapper">
+                                        <select name="" class="select.primary">
+                                            <option value="1"> Ultimos 30 dias </option>
+                                                
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
